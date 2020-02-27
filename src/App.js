@@ -17,33 +17,20 @@ class App extends Component {
   unsubscribeFromAuth = null;
 
   componentDidMount() {
-    // destructure
     const { setCurrentUser } = this.props;
 
-    // when a user signs in
     this.unsubscribeFromAuth = auth.onAuthStateChanged(async userAuth => {
-      // check if theres a user auth
       if (userAuth) {
-        // get the user ref from our method passing in the user auth
-        // if there is a document there, we will get back the userRef
-        // if there is no document there, we will create a new object and document in that place
-        // and we will still get back that user ref
         const userRef = await createUserProfileDocument(userAuth);
-    
-        // then we will subscribe (listen for changes) to this user ref for any changes
-        // to that data, 
 
-        // whenever our user snapshot updates
         userRef.onSnapshot(snapShot => {
-          // setting the user reducer value with the new object
           setCurrentUser({
               id: snapShot.id,
               ...snapShot.data()   
             });
         });
-  
       }
-      // if user ever logs out, aka if userAuth is null, set currentUser to null 
+
       setCurrentUser(userAuth);
     });
   }
@@ -51,7 +38,6 @@ class App extends Component {
   componentWillUnmount() {
     this.unsubscribeFromAuth();
   }
-
 
   render() {
     return (
