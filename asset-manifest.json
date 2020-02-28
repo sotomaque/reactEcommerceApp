@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/reactEcommerceApp/static/css/main.153bb950.chunk.css",
+    "main.js": "/reactEcommerceApp/static/js/main.3168150e.chunk.js",
+    "main.js.map": "/reactEcommerceApp/static/js/main.3168150e.chunk.js.map",
+    "runtime-main.js": "/reactEcommerceApp/static/js/runtime-main.674ff8d4.js",
+    "runtime-main.js.map": "/reactEcommerceApp/static/js/runtime-main.674ff8d4.js.map",
+    "static/js/2.cc8ba4ea.chunk.js": "/reactEcommerceApp/static/js/2.cc8ba4ea.chunk.js",
+    "static/js/2.cc8ba4ea.chunk.js.map": "/reactEcommerceApp/static/js/2.cc8ba4ea.chunk.js.map",
+    "index.html": "/reactEcommerceApp/index.html",
+    "precache-manifest.1d957854100e8daea6eadbe3cbd4941f.js": "/reactEcommerceApp/precache-manifest.1d957854100e8daea6eadbe3cbd4941f.js",
+    "service-worker.js": "/reactEcommerceApp/service-worker.js",
+    "static/css/main.153bb950.chunk.css.map": "/reactEcommerceApp/static/css/main.153bb950.chunk.css.map",
+    "static/js/2.cc8ba4ea.chunk.js.LICENSE": "/reactEcommerceApp/static/js/2.cc8ba4ea.chunk.js.LICENSE",
+    "static/media/crown.ed28accb.svg": "/reactEcommerceApp/static/media/crown.ed28accb.svg",
+    "static/media/shopping-bag.30f07071.svg": "/reactEcommerceApp/static/media/shopping-bag.30f07071.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.674ff8d4.js",
+    "static/js/2.cc8ba4ea.chunk.js",
+    "static/css/main.153bb950.chunk.css",
+    "static/js/main.3168150e.chunk.js"
+  ]
+}
